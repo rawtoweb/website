@@ -1,0 +1,12 @@
+# Values shared by every cohort. Cohort-specific values (dates, links) live in
+# the profile files _quarto-<cohort>.yml under cohort: and are read with
+# {{< meta cohort.key >}}.
+author: "Lars Schöbitz"
+author-url: "https://ghe.ethz.ch/"
+institute: "ETH Zurich"
+department: "Global Health Engineering"
+email: "lars.schoebitz@ethz.ch"
+
+tools:
+  washr: "https://openwashdata.github.io/washr/"
+  pkgreview: "https://github.com/openwashdata/pkgreview"

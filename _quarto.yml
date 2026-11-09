@@ -1,0 +1,93 @@
+# Website of rawtoweb. One site, one snapshot per cohort (rawtoweb-dev/admin,
+# docs/decisions/0002, after gitklar).
+#
+#   quarto render                                root, into _site/
+#   quarto render --profile cohort,dcc-2027      cohort, into _site/dcc-2027/
+#
+# A cohort is the profile file _quarto-<name>.yml plus one line in the file
+# `cohorts`. Shared pages are never edited for one cohort: cohort-specific
+# text lives in the profile values (cohort.*) and in blocks marked
+# when-profile="cohort".
+
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "pre-work/*.qmd"
+
+lang: en
+
+website:
+  page-navigation: true
+  title: "rawtoweb"
+  description: "From raw data to a website for humans. Workshops of Global Health Engineering, ETH Zurich, in which a raw dataset becomes a published data package in front of the room, with every AI step disclosed."
+  site-url: https://rawtoweb.github.io/website/
+  repo-url: https://github.com/rawtoweb/website
+  repo-actions: [edit, issue]
+
+  page-footer:
+    left: "rawtoweb is a workshop offer of Global Health Engineering, ETH Zurich. Content [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), code MIT."
+    right: "Built with [Quarto](https://quarto.org/). [Source](https://github.com/rawtoweb/website)."
+    background: "#F5F5F5"
+
+  sidebar:
+    background: "#F5F5F5"
+    logo: "images/ghe-square-logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/rawtoweb
+        text: "rawtoweb on GitHub"
+    style: "docked"
+    search: false
+    collapse-level: 1
+    contents:
+      - text: "---"
+      - href: index.qmd
+        text: "Start"
+      - section: "Pre-work"
+        contents:
+          - href: pre-work/01-survey.qmd
+            text: "Step 1: Survey"
+          - href: pre-work/02-check-in.qmd
+            text: "Step 2: Check-in comment"
+          - href: pre-work/03-run-it-yourself.qmd
+            text: "Optional: run it yourself"
+          - href: pre-work/04-your-data.qmd
+            text: "Optional: your own dataset"
+
+# Default cohort values. A cohort profile overrides them. The root render
+# shows the shared pages with these placeholders.
+cohort:
+  name: ""
+  label: ""
+  conference: ""
+  conference_url: ""
+  datetime: "to be announced"
+  location: ""
+  due_date: "to be announced"
+  guide_date: "to be announced"
+  survey_url: ""
+  check_in_url: ""
+  dataset_form_url: ""
+  record_url: ""
+  hosts: "Lars Schöbitz"
+
+format:
+  html:
+    theme:
+      light: [litera, theme.scss]
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 250px
+    link-external-icon: true
+    link-external-newwindow: true
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+    mainfont: "Atkinson Hyperlegible"
+
+editor: source

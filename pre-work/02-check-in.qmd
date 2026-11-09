@@ -1,0 +1,46 @@
+---
+title: "Step 2: Post a comment on the check-in issue"
+editor: source
+---
+
+## {{< fa comment >}} What you are doing
+
+A GitHub repository holds the files of a project. The repository of your workshop holds the check-in issue, and on the day the data package we build gets a repository of its own. An issue is a public discussion thread attached to a repository. People open issues to report a problem, propose a change or ask a question. Every issue has a number and a page of its own, and anyone with a GitHub account can comment on it.
+
+A comment on an issue is the smallest contribution GitHub knows. It carries your username and a time stamp, and it stays on the page. In the workshop, every proposal you make for the documentation of the dataset goes into an issue as a comment. I read the comments, merge the changes into the data package in front of the room, and each commit names the person who proposed it, so the record of the workshop shows who contributed what and what the AI did.
+
+This step is the same action, done once in advance. Afterwards you know that your account works and where to type on the day.
+
+## {{< fa list-ol >}} Steps
+
+::: {.content-visible when-profile="cohort"}
+
+1.  Sign in to GitHub.
+2.  Open the [check-in issue]({{< meta cohort.check_in_url >}}).
+3.  Scroll to the box at the bottom of the page, under the last comment.
+4.  Write your first name, your institution and one line on the data you work with.
+5.  Click "Comment".
+
+:::
+
+::: {.content-visible unless-profile="cohort"}
+
+1.  Sign in to GitHub.
+2.  Open the check-in issue of your workshop. The link is on the page of your workshop (see the table on the [start page](../index.qmd)).
+3.  Scroll to the box at the bottom of the page, under the last comment.
+4.  Write your first name, your institution and one line on the data you work with.
+5.  Click "Comment".
+
+:::
+
+Your comment appears in the thread with your username. That is the whole test.
+
+## {{< fa bell >}} What happens next
+
+GitHub sends you an email whenever someone else comments on the issue. If that is too much, click "Unsubscribe" in the right hand column of the issue page. You still take part on the day.
+
+## {{< fa life-ring >}} If something goes wrong
+
+-   The comment box is missing: you are not signed in. Sign in and reload the page.
+-   You cannot find the issue: it is in the "Issues" tab of the workshop repository, titled "Check in" and pinned at the top.
+-   Anything else: write to [{{< var email >}}](mailto:{{< var email >}}), or come anyway and pair with a neighbour at your table.

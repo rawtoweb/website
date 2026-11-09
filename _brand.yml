@@ -1,0 +1,37 @@
+meta:
+  name: "From raw data to a website for humans"
+  link: "https://global-health-engineering.github.io/workshop-dcc-2027/"
+
+# Palette and type of the Global Health Engineering group site, as used on
+# the Git for Scientists pre-work sites (gitforsci-rdc/website).
+color:
+  palette:
+    ghe-blue: "#0F4C81"
+    ghe-orange: "#ED6D37"
+    ghe-peach: "#FEBC94"
+    ghe-yellow: "#FAE3B4"
+    ghe-gray: "#5c5751"
+    ghe-light: "#F5F5F5"
+    ink: "#1e1e1e"
+    paper: "#f4f4f4"
+  foreground: ink
+  background: paper
+  primary: ghe-blue
+  secondary: ghe-gray
+  link: ghe-blue
+
+typography:
+  fonts:
+    - family: Atkinson Hyperlegible
+      source: google
+    - family: Source Code Pro
+      source: google
+  base: Atkinson Hyperlegible
+  headings:
+    family: Atkinson Hyperlegible
+    color: primary
+  monospace:
+    family: Source Code Pro
+
+logo:
+  small: images/ghe-square-logo.png

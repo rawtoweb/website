@@ -1,0 +1,72 @@
+---
+title: "Step 1: Pre-course survey"
+editor: source
+---
+
+## {{< fa clipboard-list >}} Why
+
+The survey tells me who is in the room, what data you work with, whether you want to run the tools yourself and whether you bring a dataset. It also records your GitHub username, which the workshop needs (see step 2). It takes under ten minutes.
+
+::: {.content-visible when-profile="cohort"}
+
+## {{< fa arrow-up-right-from-square >}} Take the survey
+
+[Open the survey]({{< meta cohort.survey_url >}}){.btn .btn-primary}
+
+Please complete it by [{{< meta cohort.due_date >}}]{.highlight-yellow}.
+
+:::
+
+::: {.content-visible unless-profile="cohort"}
+
+## {{< fa arrow-up-right-from-square >}} Take the survey
+
+The link to the survey is on the page of your workshop (see the table on the [start page](../index.qmd)).
+
+:::
+
+## {{< fa list >}} What it asks
+
+-   your consent to the use of the answers for this workshop (the answers are stored in Zurich, shared with nobody, and your email address is deleted after the workshop);
+-   your email address and your GitHub username;
+-   the operating system of your laptop and whether you can install software on it;
+-   your role and your work with data;
+-   whether you would like to bring a dataset;
+-   your programming experience and, optionally, the AI tools you use;
+-   what you want to take home.
+
+## {{< fa brands github >}} No GitHub account yet?
+
+The survey asks for your username. If you have no account, the survey walks you through creating one. It takes about five minutes, and the steps are these:
+
+1.  Open <https://github.com/signup> in a new tab.
+2.  Enter an email address you will keep and choose a password.
+3.  Choose a username made of letters, digits and hyphens, no spaces. It is public, for example in the address of your projects. Many people use firstname-lastname.
+4.  Confirm your email address with the code GitHub sends you.
+5.  Go back to the survey and enter the username, without the @.
+
+::: {.callout-tip collapse="true"}
+## Username advice from [Happy Git and GitHub for the useR](https://happygitwithr.com/github-acct.html#github-acct)
+
+You will be able to upgrade to a paid level of service, apply discounts, join organizations, etc. in the future, so don't fret about any of that now. **Except your username. You might want to give that some thought.**
+
+A few tips, which sadly tend to contradict each other:
+
+-   Incorporate your actual name! People like to know who they're dealing with. Also makes your username easier for people to guess or remember.
+-   Reuse your username from other contexts, e.g., Twitter or Slack. But, of course, someone with no GitHub activity will probably be squatting on that.
+-   Pick a username you will be comfortable revealing to your future boss.
+-   Shorter is better than longer.
+-   Be as unique as possible in as few characters as possible. In some settings GitHub auto-completes or suggests usernames.
+-   Make it timeless. Don't highlight your current university, employer, or place of residence, e.g. JennyFromTheBlock.
+-   Avoid words laden with special meaning in programming.
+-   Avoid the use of upper vs. lower case to separate words. We highly recommend all lowercase. GitHub treats usernames in a case insensitive way, but using all lowercase is kinder to people doing downstream regular expression work with usernames, in various languages. A better strategy for word separation is to use a hyphen `-`.
+
+You can change your username later, but better to get this right the first time.
+
+-   <https://help.github.com/articles/changing-your-github-username/>
+-   <https://help.github.com/articles/what-happens-when-i-change-my-username/>
+:::
+
+## {{< fa arrow-right >}} Next
+
+Stay signed in to GitHub and go on to [Step 2: post a comment on the check-in issue](02-check-in.qmd).

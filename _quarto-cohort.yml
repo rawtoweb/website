@@ -1,0 +1,6 @@
+# Shared settings of every cohort render. Activated together with the
+# cohort's own profile: quarto render --profile cohort,<name>
+# Nothing differs from the root yet; the file exists so that the Action's
+# profile list resolves for every cohort.
+website:
+  page-navigation: true

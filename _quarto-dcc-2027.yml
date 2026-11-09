@@ -1,0 +1,20 @@
+# Cohort dcc-2027: the workshop at the Data Curation Conference 2027, Basel.
+# Rendered with: quarto render --profile cohort,dcc-2027
+project:
+  output-dir: _site/dcc-2027
+website:
+  site-url: https://rawtoweb.github.io/website/dcc-2027/
+cohort:
+  name: "dcc-2027"
+  label: "Data Curation Conference 2027, Basel"
+  conference: "Data Curation Conference 2027"
+  conference_url: "https://researchdata.unibas.ch/en/services/data-curation-conference-2027/"
+  datetime: "Thursday, 14 January 2027, 10:45 to 12:00"
+  location: "University of Basel (the room is in the conference programme)"
+  due_date: "Friday, 11 December 2026"
+  guide_date: "5 January 2027"
+  survey_url: "https://larnsce-rawtoweb-dcc-2027-survey.share.connect.posit.cloud/"
+  check_in_url: "https://github.com/rawtoweb/dcc-2027/issues/1"
+  dataset_form_url: "https://github.com/rawtoweb/dcc-2027/issues/new?template=submit-dataset.yml"
+  record_url: "https://github.com/Global-Health-Engineering/workshop-dcc-2027"
+  hosts: "Lars Schöbitz"

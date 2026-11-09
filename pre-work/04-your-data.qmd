@@ -1,0 +1,42 @@
+---
+title: "Optional: bring a dataset"
+editor: source
+---
+
+## {{< fa database >}} Leave with a published data package
+
+If you want to see the workflow run on a dataset before the conference, send one. I build a data package from it with the same workflow that runs in the workshop, you review it, and it is published with a website and a DOI before the day. In the workshop everyone can explore the published packages while the live run goes on, and we compare one or two of them. Two kinds of dataset work:
+
+-   **Your own data**, or your group's, that you may publish under CC BY 4.0. You are the author of the package, together with the people who collected the data, and I am the maintainer.
+-   **A published dataset by others** under CC BY 4.0 or CC0 that you pick, for example from Zenodo or from the supplement of an article. The original authors are listed as data contributors, you as contributor (you chose the dataset and review its documentation), and I as author and maintainer. The corresponding author of the original gets the draft package and three weeks to object before it is published. The licence allows the reuse; the notice is a courtesy.
+
+## {{< fa paper-plane >}} How to submit
+
+::: {.content-visible when-profile="cohort"}
+
+[Submit a dataset]({{< meta cohort.dataset_form_url >}}){.btn .btn-primary}
+
+Submit by [{{< meta cohort.due_date >}}]{.highlight-yellow}. The form opens an issue on the repository of your workshop (sign in to GitHub first).
+
+:::
+
+::: {.content-visible unless-profile="cohort"}
+
+The submission form is on the page of your workshop (see the table on the [start page](../index.qmd)). It opens an issue on the repository of your workshop.
+
+:::
+
+The form asks for a name, whose data it is, where it comes from, what the rows and the columns mean, and the data itself: a CSV, XLSX or ZIP file up to 25 MB dragged into the form, or the link to the published dataset. Three tick boxes confirm the conditions below. The issue and the attached file are public from the moment you submit, and the issue is where you follow the progress of your package.
+
+## {{< fa shield-halved >}} Conditions
+
+-   The data holds no personal data: no names, addresses, GPS points of households or other details that identify a person.
+-   The data may be published under CC BY 4.0 or CC0, because it is yours or because its published licence says so. Check with your co-authors or your data owner if you are unsure.
+-   One dataset per submission. Small is fine; a few hundred rows show the workflow as well as a large file. Every submission is built, in the order it arrives.
+
+## {{< fa box-open >}} What you get
+
+-   A public repository in the rawtoweb organisation with the processed data, the code that processed it, a data dictionary and machine readable metadata.
+-   A website for the package with documentation and plots built from the data.
+-   A DOI on Zenodo and a citation.
+-   A review round on the issue before anything goes public. Your own data is published only with your yes; a republished dataset after the notice period.
