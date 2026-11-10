@@ -1,0 +1,26 @@
+---
+title: "After the workshop: run it yourself"
+editor: source
+---
+
+## {{< fa laptop-code >}} Build a data package on your own laptop
+
+This page is not part of the pre-work, and nobody runs these steps during the workshop. It is for the time after the workshop, when you want to build a data package from your own data. If you are very interested, you can also try it before the day.
+
+1.  R, version 4.4 or later, from <https://cran.r-project.org/>.
+2.  An editor, either [RStudio Desktop](https://posit.co/download/rstudio-desktop/) or [Positron](https://positron.posit.co/).
+3.  The washr package. In the R console:
+
+    ``` r
+    install.packages("washr")
+    ```
+
+4.  Check that it loads without an error:
+
+    ``` r
+    library(washr)
+    ```
+
+## {{< fa book >}} The guide
+
+The installation alone does not take you through a package. The steps belong together with a step by step guide. The current guide was written for openwashdata, and I am rewriting it for use with any data. It is linked here when it is ready. Until then, the [washr documentation]({{< var tools.washr >}}) describes what each function does.

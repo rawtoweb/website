@@ -53,10 +53,12 @@ website:
             text: "Step 1: Survey"
           - href: pre-work/02-check-in.qmd
             text: "Step 2: Check-in comment"
-          - href: pre-work/03-run-it-yourself.qmd
-            text: "Optional: run it yourself"
-          - href: pre-work/04-your-data.qmd
-            text: "Optional: your own dataset"
+          - href: pre-work/03-your-data.qmd
+            text: "Step 3: Send a dataset"
+      - section: "Afterwards"
+        contents:
+          - href: pre-work/04-run-it-yourself.qmd
+            text: "Run it yourself"
 
 # Default cohort values. A cohort profile overrides them. The root render
 # shows the shared pages with these placeholders.
@@ -68,7 +70,6 @@ cohort:
   datetime: "to be announced"
   location: ""
   due_date: "to be announced"
-  guide_date: "to be announced"
   survey_url: ""
   check_in_url: ""
   dataset_form_url: ""

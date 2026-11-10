@@ -5,7 +5,7 @@ editor: source
 
 ## {{< fa clipboard-list >}} Why
 
-The survey tells me who is in the room, what data you work with, whether you want to run the tools yourself and whether you bring a dataset. It also records your GitHub username, which the workshop needs (see step 2). It takes under ten minutes.
+The survey tells me who is in the room and what data you work with. It records your GitHub username, which steps 2 and 3 need. It also asks whether you plan to send a dataset in [step 3](03-your-data.qmd). Have a look at that page first. If you are not sure or the answer is no, I write back to you. It takes under ten minutes.
 
 ::: {.content-visible when-profile="cohort"}
 
@@ -31,7 +31,7 @@ The link to the survey is on the page of your workshop (see the table on the [st
 -   your email address and your GitHub username;
 -   the operating system of your laptop and whether you can install software on it;
 -   your role and your work with data;
--   whether you would like to bring a dataset;
+-   whether you plan to send a dataset in step 3, and what holds you back if not;
 -   your programming experience and, optionally, the AI tools you use;
 -   what you want to take home.
 
