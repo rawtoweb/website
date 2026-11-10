@@ -14,7 +14,7 @@ Two kinds of dataset work:
 
 ## {{< fa hand >}} No dataset?
 
-If you have no data you can share, or the step is not for you this time, say so in the [survey of step 1](01-survey.qmd). It asks whether you send a dataset, and a no is a full answer. You then have nothing to do on this page. In the workshop you explore the packages of the other participants.
+The [survey of step 1](01-survey.qmd) asks whether you plan to send a dataset. If you are not sure, or you have no data you can share, say so there and add a few words on what holds you back. I write back to you before the due date. Often there is a way in, for example a published dataset from your field. Your survey answer is not final, and you can submit until the due date. If you stay with no, you explore the packages of the other participants in the workshop.
 
 ## {{< fa paper-plane >}} How to submit
 

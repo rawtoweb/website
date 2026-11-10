@@ -37,7 +37,7 @@ During the workshop a raw dataset from the water, sanitation and health sector b
 
 -   [Step 1](pre-work/01-survey.qmd): Take the pre-course survey. It records your GitHub username and, if you have no account yet, walks you through creating one.
 -   [Step 2](pre-work/02-check-in.qmd): Post one comment on the check-in issue. It tests your account and shows you where to type, before the day and on it.
--   [Step 3](pre-work/03-your-data.qmd): Send a dataset, either your own data or a published dataset under CC BY or CC0 that you pick. A data package is built from it, you review it, and you come to the workshop with a published, citable dataset. If you have no data to share or the step is not for you, you say so in the survey of step 1.
+-   [Step 3](pre-work/03-your-data.qmd): Send a dataset, either your own data or a published dataset under CC BY or CC0 that you pick. A data package is built from it, you review it, and you come to the workshop with a published, citable dataset. If you are not sure or have no data to share, you say so in the survey of step 1 and I write back to you.
 
 ### Not required
 
