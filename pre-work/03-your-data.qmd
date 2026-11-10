@@ -1,0 +1,58 @@
+---
+title: "Step 3: Send a dataset"
+editor: source
+---
+
+## {{< fa database >}} What this step is
+
+Send a dataset, and the workflow of the workshop runs on it before the conference. I build a data package from it, you review it, and it is published with a website and a DOI before the day. You see on data you know what the workflow asks of you and what comes out, so you can judge it for your own work. In the workshop we then spend less time on the mechanics and more on the elements of a published dataset and on the open questions.
+
+Two kinds of dataset work:
+
+-   **Your own data**, or your group's, that you may publish under CC BY 4.0.
+-   **A published dataset by others** under CC BY 4.0 or CC0 that you pick, for example from Zenodo or from the supplement of an article.
+
+## {{< fa hand >}} No dataset?
+
+If you have no data you can share, or the step is not for you this time, say so in the [survey of step 1](01-survey.qmd). It asks whether you send a dataset, and a no is a full answer. You then have nothing to do on this page. In the workshop you explore the packages of the other participants.
+
+## {{< fa paper-plane >}} How to submit
+
+::: {.content-visible when-profile="cohort"}
+
+[Submit a dataset]({{< meta cohort.dataset_form_url >}}){.btn .btn-primary}
+
+Submit by [{{< meta cohort.due_date >}}]{.highlight-yellow}. The form opens an issue on the repository of your workshop (sign in to GitHub first).
+
+:::
+
+::: {.content-visible unless-profile="cohort"}
+
+The submission form is on the page of your workshop (see the table on the [start page](../index.qmd)). It opens an issue on the repository of your workshop.
+
+:::
+
+The form asks for a name, whose data it is, where it comes from, a brief description of the rows and the columns, and the data itself (a CSV, XLSX or ZIP file up to 25 MB dragged into the form, or the link to the published dataset). A brief description is enough. The data dictionary is built from it and comes back to you in the review. Three tick boxes confirm the conditions below. The issue and the attached file are public from the moment you submit, and the issue is where you follow the progress of your package.
+
+## {{< fa shield-halved >}} Conditions
+
+-   The data holds no personal data, which means no names, addresses, GPS points of households or other details that identify a person.
+-   The data may be published under CC BY 4.0 or CC0, because it is yours or because its published licence says so. Check with your co-authors or your data owner if you are unsure.
+-   One dataset per submission. Small is fine. A few hundred rows show the workflow as well as a large file. Every submission is built, in the order it arrives.
+
+## {{< fa user-pen >}} Who is named on the package
+
+-   **Your own data.** You are an author of the package, together with the people who collected the data.
+-   **A published dataset by others.** You are an author of the package, because you chose the dataset and review its documentation. The original authors are listed as data contributors. I write to the corresponding author with the draft package and ask whether the original authors want to be authors of the package as well. They have three weeks to answer or to object before it is published. The licence allows the reuse, so the email is a courtesy and an invitation.
+-   **The maintainer.** I am the maintainer of every package and an author of none. The maintainer is the person responsible for keeping the package available. I answer the issues people open on it and fix what breaks. If the package is ever archived, I leave a note on it that says why and where the data went.
+
+## {{< fa box-open >}} What you get
+
+Each item links to the same part of a published example, [guluswm](https://openwashdata.github.io/guluswm/), a household waste survey from Gulu City, Uganda.
+
+-   A public repository in the rawtoweb organisation ([example](https://github.com/openwashdata/guluswm)) with the processed data, the [code that processed it](https://github.com/openwashdata/guluswm/blob/main/data-raw/data_processing.R) and a [data dictionary](https://github.com/openwashdata/guluswm/blob/main/data-raw/dictionary.csv).
+-   A [website for the package](https://openwashdata.github.io/guluswm/) with the documentation of every variable, the data as [CSV and Excel downloads](https://openwashdata.github.io/guluswm/#data) and an [article with plots built from the data](https://openwashdata.github.io/guluswm/articles/examples.html).
+-   A [DOI on Zenodo](https://doi.org/10.5281/zenodo.23918126) and a [citation](https://openwashdata.github.io/guluswm/authors.html#citation) that names the authors.
+-   A review round on the issue before anything goes public. Your own data is published only with your yes, and a republished dataset after the three weeks.
+
+The website of your package is online first, for the review. The release and the DOI follow once you have said yes.
