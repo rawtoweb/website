@@ -49,8 +49,8 @@ The agenda is subject to change.
 
 | Minutes | Block | What happens |
 |----|----|----|
-| 10 | Introduction | Why we publish for humans, the workflow in one picture, the three stages of data (raw, analysis ready, final), and the links to the participants' data packages |
-| 25 | Live run with washr | From the raw file to a documented data package and its website. Every step (folder structure, data dictionary, metadata, README, website) can be done by a person or by a coding agent. The agent does them here, and the points where a person confirms are shown |
+| 15 | Introduction | Why we publish for humans, the workflow in one picture, the three stages of data (raw, analysis ready, final), and the links to the participants' data packages |
+| 20 | Live run with washr | From the raw file to a documented data package and its website. Every step (folder structure, data dictionary, metadata, README, website) can be done by a person or by a coding agent. The agent does them here, and the points where a person confirms are shown |
 | 10 | Review, release and DOI | pkgreview introduced as the AI driven review. The steps after the build shown on a participant's package that has its DOI. You explore the participants' packages and post one comment on the issue of one of them |
 | 25 | Discussion in groups | Four groups, one theme each (below). Each group collects its points on sticky notes, and one person per group reports back |
 | 5 | Take home | Where the packages and the guide are, how to try washr on your own data afterwards, who to ask |
