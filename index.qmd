@@ -21,7 +21,7 @@ Thank you for choosing the workshop "From raw data to a website for humans: a li
 
 ## {{< fa circle-info >}} What happens in the workshop
 
-The workshop starts before the day. You send a dataset (step 3 below), a data package is built from it, you review it, and it is published with a website and a DOI before the conference. So you have seen the workflow on data you know when you enter the room.
+The workshop starts before the day. You send a dataset (step 3 below), I build a data package from it for you, you review it, and I publish it with a website and a DOI before the conference. So you have seen the workflow on data you know when you enter the room.
 
 During the workshop a raw dataset from the water, sanitation and health sector becomes a data package in front of the room, documented, versioned, with a data dictionary and a website. The free, open source tool [washr]({{< var tools.washr >}}) does the building. Every step can be done by a person or by a coding agent. Here the agent does them, and you see where a person has to confirm. [pkgreview]({{< var tools.pkgreview >}}), the AI driven review that follows, is introduced. Then you explore the published packages of the participants and post one comment on the issue of one of them, on what a human reader still misses. Each change that follows names the person who proposed it, so the record shows who contributed what and what the AI did. The last third of the session is a discussion in groups. The abstract is in the [conference record]({{< meta cohort.record_url >}}).
 
@@ -33,11 +33,11 @@ During the workshop a raw dataset from the water, sanitation and health sector b
 
 ## {{< fa list-check >}} What to prepare
 
-[Three steps, all by {{< meta cohort.due_date >}}]{.highlight-yellow}. Steps 1 and 2 are required for everyone and take about ten minutes together.
+[Three steps, all by {{< meta cohort.due_date >}}]{.highlight-yellow}. Steps 1 and 2 are required for everyone and take about ten minutes together. Step 3 is recommended, and how much time you put into it is up to you.
 
 -   [Step 1](pre-work/01-survey.qmd): Take the pre-course survey. It records your GitHub username and, if you have no account yet, walks you through creating one.
 -   [Step 2](pre-work/02-check-in.qmd): Post one comment on the check-in issue. It tests your account and shows you where to type, before the day and on it.
--   [Step 3](pre-work/03-your-data.qmd): Send a dataset, either your own data or a published dataset under CC BY or CC0 that you pick. A data package is built from it, you review it, and you come to the workshop with a published, citable dataset. If you are not sure or have no data to share, you say so in the survey of step 1 and I write back to you.
+-   [Step 3](pre-work/03-your-data.qmd): Recommended. Send a dataset, either your own data or a published dataset under CC BY or CC0 that you pick. One file is enough. I build a data package from it for you, you review it, and you come to the workshop with a published, citable dataset. If you are not sure or have no data to share, you say so in the survey of step 1 and I write back to you.
 
 ### Not required
 
@@ -52,7 +52,7 @@ The agenda is subject to change.
 | 15 | Introduction | Why we publish for humans, the workflow in one picture, the three stages of data (raw, analysis ready, final), and the links to the participants' data packages |
 | 20 | Live run with washr | From the raw file to a documented data package and its website. Every step (folder structure, data dictionary, metadata, README, website) can be done by a person or by a coding agent. The agent does them here, and the points where a person confirms are shown |
 | 10 | Review, release and DOI | pkgreview introduced as the AI driven review. The steps after the build shown on a participant's package that has its DOI. You explore the participants' packages and post one comment on the issue of one of them |
-| 25 | Discussion in groups | Four groups, one theme each (below). Each group collects its points on sticky notes, and one person per group reports back |
+| 25 | Discussion in groups | Four groups, one theme each (below). Each group answers the question of its theme, writes down two challenges and one recommendation, and one person per group reports back |
 | 5 | Take home | Where the packages and the guide are, how to try washr on your own data afterwards, who to ask |
 
 : {tbl-colwidths="[12,22,66]"}
@@ -68,11 +68,11 @@ After the workshop, you can
 
 ## {{< fa comments >}} Discussion themes
 
-The workflow raises four questions, technical, organisational, societal and ethical. Four groups take one theme each, collect their points on sticky notes, and one person per group reports back to the room.
+The workflow raises four questions, technical, organisational, societal and ethical. Four groups take one theme each. Each group answers the question of its theme, writes down on sticky notes the two main challenges it sees and one recommendation for researchers or institutions, and one person per group reports back to the room.
 
--   **Oversight.** Publishers sell AI curated data publication on closed platforms. How much the author still checks is unclear. In our workflow every AI step is visible.
--   **Disclosure.** We record how AI contributed to each output, in commit trailers and a prompt archive. The record for this workshop, from the proposal to the slides, is public.
--   **Sensitive data.** Ours comes from households in low income countries. What may enter a public repository, and when only aggregates may be released, is half-solved for us.
+-   **Oversight.** Publishers sell AI curated data publication on closed platforms. How much the author still checks is unclear. In our workflow every AI step is visible. Which curation steps must a person confirm, and who checks that it happened?
+-   **Disclosure.** We record how AI contributed to each output, in commit trailers and a prompt archive. The record for this workshop, from the proposal to the slides, is public. What does a reader of a published dataset need to know about the AI contribution, and how much record keeping can be asked of a researcher?
+-   **Sensitive data.** Ours comes from households in low income countries. What may enter a public repository, and when only aggregates may be released, is half-solved for us. Where is the line between what an agent may see and what may be published?
 -   **Rewards.** With AI, a paper is drafted in a day from well curated data. Scientific credit should shift towards the data. Argue back.
 
 ## {{< fa robot >}} AI disclosure
