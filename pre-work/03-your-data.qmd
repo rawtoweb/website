@@ -5,7 +5,7 @@ editor: source
 
 ## {{< fa database >}} What this step is
 
-Send a dataset, and the workflow of the workshop runs on it before the conference. I build a data package from it, you review it, and it is published with a website and a DOI before the day. You see on data you know what the workflow asks of you and what comes out, so you can judge it for your own work. In the workshop we then spend less time on the mechanics and more on the elements of a published dataset and on the open questions.
+This step is recommended. Send a dataset, and the workflow of the workshop runs on it before the conference. I build a data package from it for you, you review it, and I publish it with a website and a DOI before the day. How much time you put in is up to you. One file is enough for me to work from, and you can add as much context as you like. Where I have questions, I ask them on the issue of your submission, so the answers stay documented. You see on data you know what the workflow asks of you and what comes out, so you can judge it for your own work. In the workshop we then spend less time on the mechanics and more on the elements of a published dataset and on the open questions.
 
 Two kinds of dataset work:
 
