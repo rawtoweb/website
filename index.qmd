@@ -25,6 +25,17 @@ The workshop starts before the day. You send a dataset (step 3 below), I build a
 
 During the workshop a raw dataset from the water, sanitation and health sector becomes a data package in front of the room, documented, versioned, with a data dictionary and a website. The free, open source tool [washr]({{< var tools.washr >}}) does the building. Every step can be done by a person or by a coding agent. Here the agent does them, and you see where a person has to confirm. [pkgreview]({{< var tools.pkgreview >}}), the AI driven review that follows, is introduced. Then you explore the published packages of the participants and post one comment on the issue of one of them, on what a human reader still misses. Each change that follows names the person who proposed it, so the record shows who contributed what and what the AI did. The last third of the session is a discussion in groups. The abstract is in the [conference record]({{< meta cohort.record_url >}}).
 
+## {{< fa route >}} From raw file to website
+
+A dataset passes through six stages on its way to a published data package and website.
+
+1.  **Raw data.** The file as it was collected, often an Excel sheet. It is kept as it is and never overwritten.
+2.  **Analysis ready data.** Code cleans the raw file and saves a tidy copy. Raw data, code and tidy data sit in one public repository, so everyone can see how one became the other.
+3.  **Documentation and metadata.** A data dictionary explains every column. A citation file names everyone who contributed, and metadata describes the dataset in a form that programs read.
+4.  **Review.** A check finds what is missing or inconsistent before anything is published.
+5.  **Release and DOI.** A release files a permanent copy in the Zenodo archive and gives the dataset a DOI, the link others cite.
+6.  **Website.** The data package gets its own website with the documentation, the data dictionary and download buttons. This is the part made for humans.
+
 ## {{< fa suitcase >}} What to bring
 
 -   a laptop with its charger, connected to the wifi
