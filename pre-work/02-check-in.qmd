@@ -11,6 +11,14 @@ A comment on an issue is the smallest contribution GitHub knows. It carries your
 
 This step is that action, done once in advance. Afterwards you know that your account works and where to type.
 
+## {{< fa brands github >}} GitHub in this workshop
+
+The workshop does not teach GitHub. We use two elements of it, issues and comments, and with them you learn how to contribute to a project on GitHub. Nobody edits files, makes a copy of the repository or joins an organisation.
+
+## {{< fa shield-halved >}} What is public
+
+Your comment is public and shows your GitHub username. That is all the issue needs. Leave out your name, your institution, your email address and anything that identifies another person. Your survey answers stay where the survey says, and nothing from the survey appears on the issue.
+
 ## {{< fa list-ol >}} Steps
 
 ::: {.content-visible when-profile="cohort"}
@@ -18,7 +26,7 @@ This step is that action, done once in advance. Afterwards you know that your ac
 1.  Sign in to GitHub.
 2.  Open the [check-in issue]({{< meta cohort.check_in_url >}}).
 3.  Scroll to the box at the bottom of the page, under the last comment.
-4.  Write your first name, your institution and one line on the data you work with.
+4.  Write one line on the kind of data you work with. No name and no institution.
 5.  Click "Comment".
 
 :::
@@ -28,7 +36,7 @@ This step is that action, done once in advance. Afterwards you know that your ac
 1.  Sign in to GitHub.
 2.  Open the check-in issue of your workshop. The link is on the page of your workshop (see the table on the [start page](../index.qmd)).
 3.  Scroll to the box at the bottom of the page, under the last comment.
-4.  Write your first name, your institution and one line on the data you work with.
+4.  Write one line on the kind of data you work with. No name and no institution.
 5.  Click "Comment".
 
 :::
