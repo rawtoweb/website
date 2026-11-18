@@ -1,15 +1,15 @@
 ---
-title: "Step 2: Post a comment on the check-in issue"
+title: "Step 2: Your first contribution"
 editor: source
 ---
 
 ## {{< fa comment >}} What you are doing
 
-A GitHub repository holds the files of a project. The repository of your workshop holds the check-in issue, and every data package gets a repository of its own. An issue is a public discussion thread attached to a repository. People open issues to report a problem, propose a change or ask a question. Every issue has a number and a page of its own, and anyone with a GitHub account can comment on it.
+A GitHub repository holds the files of a project. The repository of your workshop holds the dataset the room builds together, and the check-in issue. An issue is a public discussion thread attached to a repository. People open issues to report a problem, propose a change or ask a question. Every issue has a number and a page of its own, and anyone with a GitHub account can comment on it.
 
-A comment on an issue is the smallest contribution GitHub knows. It carries your username and a time stamp, and it stays on the page. You use it three times in this workshop. In step 3 the form for your dataset opens an issue. The review of your data package happens in comments on that issue. And on the day you post one comment on the issue of a published package, on what a human reader still misses. Each change that follows names the person who proposed it, so the record shows who contributed what and what the AI did.
+A comment on an issue is the smallest contribution GitHub knows. It carries your username and a time stamp, and it stays on the page. It is also your first contribution to the workshop dataset. On the day you contribute more, and you review the documentation of the dataset and propose changes in the same way. Each change names the person who proposed it, so the record shows who contributed what and what the AI did.
 
-This step is the same action, done once in advance. Afterwards you know that your account works and where to type.
+This step is that action, done once in advance. Afterwards you know that your account works and where to type.
 
 ## {{< fa list-ol >}} Steps
 
@@ -47,4 +47,4 @@ GitHub sends you an email whenever someone else comments on the issue. If that i
 
 ## {{< fa arrow-right >}} Next
 
-Go on to [Step 3: send a dataset](03-your-data.qmd).
+That is all before the day. Back to the [start page](../index.qmd).

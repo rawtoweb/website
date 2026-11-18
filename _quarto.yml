@@ -52,11 +52,11 @@ website:
           - href: pre-work/01-survey.qmd
             text: "Step 1: Survey"
           - href: pre-work/02-check-in.qmd
-            text: "Step 2: Check-in comment"
-          - href: pre-work/03-your-data.qmd
-            text: "Step 3: Send a dataset"
+            text: "Step 2: First contribution"
       - section: "Afterwards"
         contents:
+          - href: pre-work/03-your-data.qmd
+            text: "Your own dataset"
           - href: pre-work/04-run-it-yourself.qmd
             text: "Run it yourself"
 
@@ -72,7 +72,6 @@ cohort:
   due_date: "to be announced"
   survey_url: ""
   check_in_url: ""
-  dataset_form_url: ""
   record_url: ""
   hosts: "Lars Schöbitz"
 

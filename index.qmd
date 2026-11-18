@@ -19,11 +19,15 @@ editor: source
 
 Thank you for choosing the workshop "From raw data to a website for humans: a live curation workflow with every AI step disclosed".
 
+::: callout-note
+This page is still subject to change. The steps below and the agenda can change before the workshop. The page was last revised on 18 November 2026.
+:::
+
 ## {{< fa circle-info >}} What happens in the workshop
 
-The workshop starts before the day. You send a dataset (step 3 below), I build a data package from it for you, you review it, and I publish it with a website and a DOI before the conference. So you have seen the workflow on data you know when you enter the room.
+In this workshop we build one dataset together. Every participant contributes to it through GitHub, a little before the conference (step 2 below) and the rest in the room, and the contributions arrive as different kinds of raw data.
 
-During the workshop a raw dataset from the water, sanitation and health sector becomes a data package in front of the room, documented, versioned, with a data dictionary and a website. The free, open source tool [washr]({{< var tools.washr >}}) does the building. Every step can be done by a person or by a coding agent. Here the agent does them, and you see where a person has to confirm. [pkgreview]({{< var tools.pkgreview >}}), the AI driven review that follows, is introduced. Then you explore the published packages of the participants and post one comment on the issue of one of them, on what a human reader still misses. Each change that follows names the person who proposed it, so the record shows who contributed what and what the AI did. The last third of the session is a discussion in groups. The abstract is in the [conference record]({{< meta cohort.record_url >}}).
+I then run the workflow live with the free, open source tool [washr]({{< var tools.washr >}}), from these raw files to a data package and its website. A coding agent performs the steps. The points where a person confirms stay visible, and so does the record of what the AI did and of who contributed what. You review the documentation and propose changes on GitHub. In groups we then discuss four themes the workflow raises for data curation. The abstract is in the [conference record]({{< meta cohort.record_url >}}).
 
 ## {{< fa route >}} From raw file to website
 
@@ -40,19 +44,19 @@ A dataset passes through six stages on its way to a published data package and w
 
 -   a laptop with its charger, connected to the wifi
 -   a web browser (Chrome, Firefox, Safari or Edge)
--   steps 1 to 3 below completed
+-   steps 1 and 2 below completed
 
 ## {{< fa list-check >}} What to prepare
 
-[Three steps, all by {{< meta cohort.due_date >}}]{.highlight-yellow}. Steps 1 and 2 are required for everyone and take about ten minutes together. Step 3 is recommended, and how much time you put into it is up to you.
+[Two steps, both by {{< meta cohort.due_date >}}]{.highlight-yellow}.
 
 -   [Step 1](pre-work/01-survey.qmd): Take the pre-course survey. It records your GitHub username and, if you have no account yet, walks you through creating one.
--   [Step 2](pre-work/02-check-in.qmd): Post one comment on the check-in issue. It tests your account and shows you where to type, before the day and on it.
--   [Step 3](pre-work/03-your-data.qmd): Recommended. Send a dataset, either your own data or a published dataset under CC BY or CC0 that you pick. One file is enough. I build a data package from it for you, you review it, and you come to the workshop with a published, citable dataset. If you are not sure or have no data to share, you say so in the survey of step 1 and I write back to you.
+-   [Step 2](pre-work/02-check-in.qmd): Make your first contribution to the workshop dataset, one comment on an issue on GitHub. It tests your account and shows you where to type, before the day and on it.
 
-### Not required
+### After the workshop
 
-[Run it yourself](pre-work/04-run-it-yourself.qmd) describes how to install R and washr and build a data package on your own laptop. That is for the time after the workshop. Nobody needs it for the session.
+-   [Your own dataset](pre-work/03-your-data.qmd): if you could imagine publishing a dataset of your own this way, tell me after the workshop and I follow up with you.
+-   [Run it yourself](pre-work/04-run-it-yourself.qmd): how to install R and washr and build a data package on your own laptop. Nobody needs it for the session.
 
 ## {{< fa calendar >}} Agenda (75 minutes)
 
@@ -60,11 +64,10 @@ The agenda is subject to change.
 
 | Minutes | Block | What happens |
 |----|----|----|
-| 15 | Introduction | Why we publish for humans, the workflow in one picture, the three stages of data (raw, analysis ready, final), and the links to the participants' data packages |
-| 20 | Live run with washr | From the raw file to a documented data package and its website. Every step (folder structure, data dictionary, metadata, README, website) can be done by a person or by a coding agent. The agent does them here, and the points where a person confirms are shown |
-| 10 | Review, release and DOI | pkgreview introduced as the AI driven review. The steps after the build shown on a participant's package that has its DOI. You explore the participants' packages and post one comment on the issue of one of them |
-| 25 | Discussion in groups | Four groups, one theme each (below). Each group answers the question of its theme, writes down two challenges and one recommendation, and one person per group reports back |
-| 5 | Take home | Where the packages and the guide are, how to try washr on your own data afterwards, who to ask |
+| 15 | Introduction | Why we publish for humans, and the workflow in one picture |
+| 35 | Building a dataset together | From the raw contributions of the room to the data package and its website. A coding agent performs the steps, and the points where a person confirms are shown. You review the documentation and propose changes on GitHub |
+| 20 | Discussion in groups | Four groups, one theme each (below). Each group answers the question of its theme, writes down two challenges and one recommendation, and one person per group reports back |
+| 5 | Take home | Where the dataset and the guide are, how to try washr on your own data afterwards, who to ask |
 
 : {tbl-colwidths="[12,22,66]"}
 
@@ -72,10 +75,9 @@ The agenda is subject to change.
 
 After the workshop, you can
 
-1.  describe the stages a raw dataset passes through on its way to a published data package and website, and what a human reader needs at each stage (documentation, data dictionary, metadata, plots);
-2.  tell which steps of data curation a coding agent can take over, which stay with the researcher, and how AI contributions are recorded so that they stay visible;
-3.  judge from a worked example, your own package or another participant's, what it takes to publish your own data as a data package, and know where the tools and the guide are;
-4.  weigh the four themes below for your own data and your own institution.
+1.  describe the stages a raw dataset passes through on its way to a published data package and website;
+2.  contribute to a shared dataset on GitHub with an issue, a comment and a proposed change;
+3.  tell which steps of data curation a coding agent can take over, which stay with the researcher, and how AI contributions are recorded.
 
 ## {{< fa comments >}} Discussion themes
 
@@ -88,7 +90,7 @@ The workflow raises four questions, technical, organisational, societal and ethi
 
 ## {{< fa robot >}} AI disclosure
 
-An AI coding agent helps build this workshop, from the abstract to this site and the participants' data packages. Every commit in the repositories names its author type, the prompts behind the AI assisted commits are archived, and the full statement is in the [conference record]({{< meta cohort.record_url >}}/blob/main/ai-disclosure.md). The same method runs in front of the room on the day.
+An AI coding agent helps build this workshop, from the abstract to this site and the workshop dataset. Every commit in the repositories names its author type, the prompts behind the AI assisted commits are archived, and the full statement is in the [conference record]({{< meta cohort.record_url >}}/blob/main/ai-disclosure.md). The same method runs in front of the room on the day.
 
 Questions before the day: [{{< var email >}}](mailto:{{< var email >}}).
 
@@ -96,19 +98,19 @@ Questions before the day: [{{< var email >}}](mailto:{{< var email >}}).
 
 ::: {.content-visible unless-profile="cohort"}
 
-rawtoweb is a workshop of [{{< var department >}}]({{< var author-url >}}), {{< var institute >}}. Before the day, every participant sends a dataset and gets it back as a published data package with a website and a DOI. In 75 minutes a raw dataset then becomes a data package in front of the room, documented, versioned, with a data dictionary and a website. A coding agent does the mechanical work with the free, open source tools [washr]({{< var tools.washr >}}) and [pkgreview]({{< var tools.pkgreview >}}), and every human and every AI step stays visible in the record.
+rawtoweb is a workshop of [{{< var department >}}]({{< var author-url >}}), {{< var institute >}}. In 75 minutes the room builds one dataset together, and it becomes a data package in front of the room, documented, versioned, with a data dictionary and a website. A coding agent does the mechanical work with the free, open source tools [washr]({{< var tools.washr >}}) and [pkgreview]({{< var tools.pkgreview >}}), and every human and every AI step stays visible in the record.
 
 ## {{< fa route >}} How a workshop runs
 
-1.  **Before the day.** Participants take a short survey and post one comment on a check-in issue, which tests the GitHub account they need. Then they send a dataset, their own or a published one under an open licence, review the data package built from it, and get it published with a DOI before the workshop. Whoever has no data to share says so in the survey.
-2.  **On the day.** An introduction to the workflow, a live run with washr, the review and release steps shown on the participants' packages with one comment from everyone, a discussion on four themes in groups, and the take home.
-3.  **Afterwards.** The repositories and the packages stay public. The pages of a workshop are frozen when it is over, so what a group saw stays as it was.
+1.  **Before the day.** Participants take a survey and make a first contribution to the workshop dataset on GitHub, which tests the account they need.
+2.  **On the day.** An introduction to the workflow, the dataset built together and turned into a data package and its website in a live run with washr, a discussion on four themes in groups, and the take home.
+3.  **Afterwards.** Participants who want to publish a dataset of their own this way get a follow-up. The repositories stay public. The pages of a workshop are frozen when it is over, so what a group saw stays as it was.
 
 ## {{< fa calendar >}} Workshops
 
 | Workshop | Pre-work by | Page |
 |----|----|----|
-| Data Curation Conference 2027, University of Basel, 14 January 2027 | 11 December 2026 | [dcc-2027](dcc-2027/) |
+| Data Curation Conference 2027, University of Basel, 14 January 2027 | 8 January 2027 | [dcc-2027](dcc-2027/) |
 
 : {tbl-colwidths="[55,20,25]"}
 

@@ -5,7 +5,7 @@ editor: source
 
 ## {{< fa clipboard-list >}} Why
 
-The survey tells me who is in the room and what data you work with. It records your GitHub username, which steps 2 and 3 need. It also asks whether you plan to send a dataset in [step 3](03-your-data.qmd). Have a look at that page first. If you are not sure or the answer is no, I write back to you. It takes under ten minutes.
+The survey tells me who is in the room and what data you work with. It records your GitHub username, which step 2 and the workshop need. Its questions on data curation and on the four themes of the workshop prepare the discussion in the room.
 
 ::: {.content-visible when-profile="cohort"}
 
@@ -29,15 +29,15 @@ The link to the survey is on the page of your workshop (see the table on the [st
 
 -   your consent to the use of the answers for this workshop (the answers are stored in Zurich, shared with nobody, and your email address is deleted after the workshop);
 -   your email address and your GitHub username;
--   the operating system of your laptop and whether you can install software on it;
--   your role and your work with data;
--   whether you plan to send a dataset in step 3, and what holds you back if not;
+-   your role, your institution and your work with data;
+-   data curation where you work, with your consent to the use of these answers, without your name, in the public workshop dataset;
+-   the four themes of the workshop (oversight, disclosure, sensitive data, credit);
 -   your programming experience and, optionally, the AI tools you use;
 -   what you want to take home.
 
 ## {{< fa brands github >}} No GitHub account yet?
 
-The survey asks for your username. If you have no account, the survey walks you through creating one. It takes about five minutes, and the steps are these:
+The survey asks for your username. If you have no account, the survey walks you through creating one. The steps are these:
 
 1.  Open <https://github.com/signup> in a new tab.
 2.  Enter an email address you will keep and choose a password.
@@ -69,4 +69,4 @@ You can change your username later, but better to get this right the first time.
 
 ## {{< fa arrow-right >}} Next
 
-Stay signed in to GitHub and go on to [Step 2: post a comment on the check-in issue](02-check-in.qmd).
+Stay signed in to GitHub and go on to [Step 2: your first contribution](02-check-in.qmd).
