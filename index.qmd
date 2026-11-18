@@ -20,7 +20,7 @@ editor: source
 Thank you for choosing the workshop "From raw data to a website for humans: a live curation workflow with every AI step disclosed".
 
 ::: callout-note
-This page is still subject to change. The steps below and the agenda can change before the workshop. The page was last revised on 18 November 2026.
+This page is still subject to change. The agenda can change before the workshop. The two steps of the pre-work stay as they are. The page was last revised on 18 November 2026.
 :::
 
 ## {{< fa circle-info >}} What happens in the workshop
