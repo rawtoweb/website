@@ -90,7 +90,7 @@ The workflow raises four questions, technical, organisational, societal and ethi
 -   **Oversight.** Publishers sell AI curated data publication on closed platforms. How much the author still checks is unclear. In our workflow every AI step is visible. Which curation steps must a person confirm, and who checks that it happened?
 -   **Disclosure.** We record how AI contributed to each output, in commit trailers and a prompt archive. The record for this workshop, from the proposal to the slides, is public. What does a reader of a published dataset need to know about the AI contribution, and how much record keeping can be asked of a researcher?
 -   **Sensitive data.** Ours comes from households in low income countries. What may enter a public repository, and when only aggregates may be released, is half-solved for us. Where is the line between what an agent may see and what may be published?
--   **Rewards.** With AI, a paper is drafted in a day from well curated data. Scientific credit should shift towards the data. Argue back.
+-   **Credit.** With AI, a paper is drafted in a day from well curated data. Scientific credit should shift towards the data. Argue back.
 
 ## {{< fa robot >}} AI disclosure
 
