@@ -27,13 +27,20 @@ The link to the survey is on the page of your workshop (see the table on the [st
 
 ## {{< fa list >}} What it asks
 
--   your consent to the use of the answers for this workshop (the answers are stored in Zurich, shared with nobody, and your email address is deleted after the workshop);
+The survey has two parts, and every page shows which part it belongs to.
+
+Part 1 is for planning only. Your individual answers from it are never published.
+
+-   your consent to the use of the answers for this workshop (the answers are stored in Zurich, and your email address is deleted after the workshop);
 -   your email address and your GitHub username;
--   your role, your institution and your work with data;
--   data curation where you work, with your consent to the use of these answers, without your name, in the public workshop dataset;
--   the four themes of the workshop (oversight, disclosure, sensitive data, credit);
--   your programming experience and, optionally, the AI tools you use;
+-   your role, the kind of institution you work at and your work with data;
+-   your experience with programming and with Git and, optionally, the AI tools you use;
 -   what you want to take home.
+
+Part 2 can become part of the public workshop dataset, without your name, email address, username or any answer from part 1. You decide that in its first question.
+
+-   data curation where you work (raw data, data availability statements, what helps a reader);
+-   the four themes of the workshop (oversight, disclosure, sensitive data, credit).
 
 ## {{< fa brands github >}} No GitHub account yet?
 

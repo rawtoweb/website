@@ -42,6 +42,8 @@ A dataset passes through six stages on its way to a published data package and w
 5.  **Release and DOI.** A release files a permanent copy in the Zenodo archive and gives the dataset a DOI, the link others cite.
 6.  **Website.** The data package gets its own website with the documentation, the data dictionary and download buttons. This is the part made for humans.
 
+The workshop runs stages 1 to 4 and 6 live. Stage 5 is explained, and no DOI is issued in the room.
+
 ## {{< fa suitcase >}} What to bring
 
 -   a laptop with its charger, connected to the wifi
@@ -100,7 +102,7 @@ Questions before the day: [{{< var email >}}](mailto:{{< var email >}}).
 
 ::: {.content-visible unless-profile="cohort"}
 
-rawtoweb is a workshop of [{{< var department >}}]({{< var author-url >}}), {{< var institute >}}. In 75 minutes the room builds one dataset together, and it becomes a data package in front of the room, documented, versioned, with a data dictionary and a website. A coding agent does the mechanical work with the free, open source tools [washr]({{< var tools.washr >}}) and [pkgreview]({{< var tools.pkgreview >}}), and every human and every AI step stays visible in the record.
+rawtoweb is a workshop of [{{< var department >}}]({{< var author-url >}}), {{< var institute >}}. In 75 minutes the room builds one dataset together, and it becomes a data package in front of the room, documented, versioned, with a data dictionary and a website. A coding agent does the mechanical work with the free, open source tool [washr]({{< var tools.washr >}}), and every human and every AI step stays visible in the record.
 
 ## {{< fa route >}} How a workshop runs
 
