@@ -27,7 +27,9 @@ This page is still subject to change. The steps below and the agenda can change 
 
 In this workshop we build one dataset together. Every participant contributes to it through GitHub, a little before the conference (step 2 below) and the rest in the room, and the contributions arrive as different kinds of raw data.
 
-I then run the workflow live with the free, open source tool [washr]({{< var tools.washr >}}), from these raw files to a data package and its website. A coding agent performs the steps. The points where a person confirms stay visible, and so does the record of what the AI did and of who contributed what. You review the documentation and propose changes on GitHub. In groups we then discuss four themes the workflow raises for data curation. The abstract is in the [conference record]({{< meta cohort.record_url >}}).
+I then run the workflow live with the free, open source tool [washr]({{< var tools.washr >}}), from these raw files to a data package and its website. A coding agent performs the steps. The points where a person confirms stay visible, and so does the record of what the AI did and of who contributed what. You review the documentation and propose changes on GitHub. In groups we then discuss four themes the workflow raises for data curation.
+
+The workshop does not teach GitHub. We use two elements of it, issues and comments, and with them you learn how to contribute to a project on GitHub. The abstract is in the [conference record]({{< meta cohort.record_url >}}).
 
 ## {{< fa route >}} From raw file to website
 
@@ -76,7 +78,7 @@ The agenda is subject to change.
 After the workshop, you can
 
 1.  describe the stages a raw dataset passes through on its way to a published data package and website;
-2.  contribute to a shared dataset on GitHub with an issue, a comment and a proposed change;
+2.  contribute to a shared dataset on GitHub with issues and comments, and propose a change that way;
 3.  tell which steps of data curation a coding agent can take over, which stay with the researcher, and how AI contributions are recorded.
 
 ## {{< fa comments >}} Discussion themes
