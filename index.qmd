@@ -54,7 +54,7 @@ The workshop runs stages 1 to 4 and 6 live. Stage 5 is explained, and no DOI is 
 
 [Two steps, both by {{< meta cohort.due_date >}}]{.highlight-yellow}.
 
--   [Step 1](pre-work/01-survey.qmd): Take the pre-course survey. It records your GitHub username and, if you have no account yet, walks you through creating one.
+-   [Step 1](pre-work/01-survey.qmd): Take the pre-course survey (under development, please wait with this step). It records your GitHub username and, if you have no account yet, walks you through creating one.
 -   [Step 2](pre-work/02-check-in.qmd): Make your first contribution to the workshop dataset, one comment on an issue on GitHub. It tests your account and shows you where to type, before the day and on it.
 
 ### After the workshop

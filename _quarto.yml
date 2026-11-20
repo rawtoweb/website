@@ -50,7 +50,7 @@ website:
       - section: "Pre-work"
         contents:
           - href: pre-work/01-survey.qmd
-            text: "Step 1: Survey"
+            text: "Step 1: Survey (under development)"
           - href: pre-work/02-check-in.qmd
             text: "Step 2: First contribution"
       - section: "Afterwards"
