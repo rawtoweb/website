@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Pre-course survey"
+title: "Step 1: Pre-course survey (under development)"
 editor: source
 ---
 
@@ -11,9 +11,7 @@ The survey tells me who is in the room and what data you work with. It records y
 
 ## {{< fa arrow-up-right-from-square >}} Take the survey
 
-[Open the survey]({{< meta cohort.survey_url >}}){.btn .btn-primary}
-
-Please complete it by [{{< meta cohort.due_date >}}]{.highlight-yellow}.
+The survey is under development. Please wait with this step. The link to the survey appears here when it is ready, together with the date by which to complete it.
 
 :::
 
